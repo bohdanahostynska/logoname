@@ -1,11 +1,11 @@
 *{
-    padding: 0;
+     padding: 0;
     margin: 0;
     font-style: 16px;
     font-weight: normal;
     list-style: none;
-    color:white;
-}
+    color:white; 
+} 
 
 a{
     text-decoration: none;
@@ -19,6 +19,10 @@ a{
     padding-bottom: 67px;
     /* padding-top: 30px; */
     /* margin-bottom: 134px; */
+}
+
+.body{
+    font-family: 'DM Sans', sans-serif;
 }
 
 .container{
@@ -66,6 +70,7 @@ a{
     box-sizing: border-box;
 }
 
+
 .input::placeholder{
     color:white;
 }
@@ -78,6 +83,12 @@ a{
     margin-left: 22px;
     background: #23A6F0;
 }
+
+.button:hover{
+    background: #304856;
+    transition: 500ms;   
+}
+    
 
 .industry{
     background: #252B42;
